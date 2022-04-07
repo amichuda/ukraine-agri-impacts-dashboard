@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+# GIS files
+*.tif
+maps/WORLDCOVER/clipped_merged_crop_cover_vector.geojson
+
 # C extensions
 *.so
 
