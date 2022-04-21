@@ -4,6 +4,7 @@ import itertools
 
 data_path = Path("excel/crop_impact_estimator.xlsx")
 
+# based on April 6th map
 oblast_names = {
     'Vinnytska' :	0,
     'Volynska' :	0,
