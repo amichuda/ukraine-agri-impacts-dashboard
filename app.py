@@ -11,6 +11,8 @@ from dash.dependencies import Input, Output
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 csa = CropSpecificAffected(data_path)
 
 df_2021 = dash_table.DataTable(
